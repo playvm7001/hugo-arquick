@@ -10,7 +10,7 @@ firebase-debug.log*
 public/
 
 #static folder
-static/
+static/images/
 
 # Firebase cache
 .firebase/
