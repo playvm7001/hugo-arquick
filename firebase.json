@@ -1,0 +1,15 @@
+{
+  "hosting": {
+    "public": "public",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "redirects": [ {
+      "source": "/author/",  
+      "destination": "https://accessories.wholesaleplaces.online/authors/مؤمن/",
+      "type": 301
+    }]
+  }
+}

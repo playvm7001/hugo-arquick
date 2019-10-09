@@ -1,0 +1,35 @@
+baseURL = "https://accessories.wholesaleplaces.online/"
+languageCode = "ar"
+DefaultContentLanguage = "ar"
+title = "اكسسوارات جملة"
+theme = "hello-friend"
+copyright = ""
+paginate = 7
+googleAnalytics = "UA-128378374-3"
+disableKinds= ["taxonomy","taxonomyTerm"]
+
+[params]
+  subtitle = "اهم اماكن ومناطق بيع الاكسسوارات بالجملة"
+  # "light" or "dark"
+  defaultTheme = "dark"
+  custom_css = ["css/custom.css"]
+[params.logo]
+  logoText = "اكسسوارات جملة"
+  # or
+  #
+# path = "/img/your-example-logo.svg"
+# alt = "Your example logo alt text"
+
+[menu]
+  [[menu.main]]
+    identifier = "about"
+    name = "من نحن"
+    url = "/about"
+  [[menu.main]]
+    identifier = "image"
+    name = "الصور"
+    url = "/image"
+  [[menu.main]]
+    identifier = "wholesaleplaces"
+    name = "اماكن بيع الجملة"
+    url = "https://wholesaleplaces.online/"
